@@ -34,6 +34,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return celda
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+            let destino = segue.destination as! DetallesVideojuegoController
+            destino.videojuego = videojuegos[tvVideojuegos.indexPathForSelectedRow!.row]
+        }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -60,6 +65,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         }
         task.resume()
     }
+    
+
     
 
 }

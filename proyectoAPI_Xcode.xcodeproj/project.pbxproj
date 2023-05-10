@@ -18,6 +18,7 @@
 		FB62B24A2A0C357C00A9F2F0 /* proyectoAPI_XcodeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB62B2492A0C357C00A9F2F0 /* proyectoAPI_XcodeUITestsLaunchTests.swift */; };
 		FB62B2572A0C37F900A9F2F0 /* Videojuego.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB62B2562A0C37F900A9F2F0 /* Videojuego.swift */; };
 		FB62B2592A0C397900A9F2F0 /* CeldaVideojuegoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB62B2582A0C397900A9F2F0 /* CeldaVideojuegoController.swift */; };
+		FBCBD4882A0C432F009FF047 /* DetallesVideojuegoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCBD4872A0C432F009FF047 /* DetallesVideojuegoController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		FB62B2492A0C357C00A9F2F0 /* proyectoAPI_XcodeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proyectoAPI_XcodeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FB62B2562A0C37F900A9F2F0 /* Videojuego.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Videojuego.swift; sourceTree = "<group>"; };
 		FB62B2582A0C397900A9F2F0 /* CeldaVideojuegoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaVideojuegoController.swift; sourceTree = "<group>"; };
+		FBCBD4872A0C432F009FF047 /* DetallesVideojuegoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallesVideojuegoController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				FB62B2562A0C37F900A9F2F0 /* Videojuego.swift */,
 				FB62B22A2A0C357B00A9F2F0 /* ViewController.swift */,
 				FB62B22C2A0C357B00A9F2F0 /* Main.storyboard */,
+				FBCBD4872A0C432F009FF047 /* DetallesVideojuegoController.swift */,
 				FB62B22F2A0C357C00A9F2F0 /* Assets.xcassets */,
 				FB62B2312A0C357C00A9F2F0 /* LaunchScreen.storyboard */,
 				FB62B2342A0C357C00A9F2F0 /* Info.plist */,
@@ -266,6 +269,7 @@
 			files = (
 				FB62B2572A0C37F900A9F2F0 /* Videojuego.swift in Sources */,
 				FB62B2592A0C397900A9F2F0 /* CeldaVideojuegoController.swift in Sources */,
+				FBCBD4882A0C432F009FF047 /* DetallesVideojuegoController.swift in Sources */,
 				FB62B22B2A0C357B00A9F2F0 /* ViewController.swift in Sources */,
 				FB62B2272A0C357B00A9F2F0 /* AppDelegate.swift in Sources */,
 				FB62B2292A0C357B00A9F2F0 /* SceneDelegate.swift in Sources */,
