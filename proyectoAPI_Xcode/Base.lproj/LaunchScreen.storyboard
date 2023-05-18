@@ -15,22 +15,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="WIKIGAME" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qdn-2w-lOw">
-                                <rect key="frame" x="127" y="326" width="137" height="35.666666666666686"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WIKIGAME" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qdn-2w-lOw">
+                                <rect key="frame" x="127" y="298" width="137" height="35.666666666666686"/>
                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="26"/>
                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wikiGame" translatesAutoresizingMaskIntoConstraints="NO" id="lc2-I5-6kE">
-                                <rect key="frame" x="0.0" y="367" width="390" height="276"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wikiGame" translatesAutoresizingMaskIntoConstraints="NO" id="lc2-I5-6kE">
+                                <rect key="frame" x="0.0" y="356" width="390" height="393"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="393" id="Moq-Xn-Lc4"/>
+                                    <constraint firstAttribute="width" constant="390" id="h5L-LW-iXz"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.31186631320000002" green="0.30327910180000001" blue="0.30327910180000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="qdn-2w-lOw" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="I8Q-I9-Anh"/>
-                            <constraint firstItem="qdn-2w-lOw" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="d73-yF-zkc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="lc2-I5-6kE" secondAttribute="bottom" constant="61" id="Kn1-Ct-BvR"/>
+                            <constraint firstItem="lc2-I5-6kE" firstAttribute="top" secondItem="qdn-2w-lOw" secondAttribute="bottom" constant="22.329999999999998" id="Q4H-dh-w2K"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qdn-2w-lOw" secondAttribute="trailing" constant="126" id="SRA-AG-F1P"/>
+                            <constraint firstItem="qdn-2w-lOw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="127" id="WmG-9y-Xr5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="lc2-I5-6kE" secondAttribute="bottom" constant="61" id="cLG-YW-uwB"/>
+                            <constraint firstItem="qdn-2w-lOw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="251" id="dJf-kU-eSX"/>
+                            <constraint firstItem="lc2-I5-6kE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="q0X-Ah-n4X"/>
+                            <constraint firstItem="lc2-I5-6kE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="t1T-Be-PeT"/>
+                            <constraint firstItem="lc2-I5-6kE" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="zSp-i5-D8F"/>
+                            <constraint firstItem="lc2-I5-6kE" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="zfb-nf-h6g"/>
                         </constraints>
                     </view>
                 </viewController>

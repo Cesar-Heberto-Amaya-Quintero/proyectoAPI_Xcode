@@ -30,7 +30,17 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         celda.lblNombre.text = videojuegos[indexPath.row].nombre
         celda.lblGenero.text = videojuegos[indexPath.row].genero
         celda.lblFecha.text = videojuegos[indexPath.row].fecha_salida
-        
+        let urlImagen = URL(string: "http://localhost:8000/storage/imagenes/" + videojuegos[indexPath.row].imagen)!
+        var solicitud = URLRequest(url: urlImagen)
+                        
+        solicitud.httpMethod = "GET"
+        let task = URLSession.shared.dataTask(with: solicitud) {
+                            data, response, error in
+                            if let data = data {
+                                celda.img.image = UIImage(data: data)
+                            }
+                        }
+        task.resume()
         return celda
     }
     
